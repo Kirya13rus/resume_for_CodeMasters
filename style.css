@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    flex-direction: column;
+}
+
+ul,
+ol {
+    margin-left: 30px;
+}
+
+ul {
+    list-style: disc;
+}
+
+.header {
+    display: flex;
+    width: 70%;
+    height: 250px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header li {
+    list-style: none;
+}
+
+.header img {
+    border-radius: 50%;
+    height: 100%;
+}
+
+.header_content h1 {
+    margin-bottom: 30px;
+    border-bottom: 3px solid #062ca8;
+}
+
+.container {
+    margin-top: 30px;
+    width: 70%;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 35px;
+    background-color: #1a70e098;
+    margin: 30px 0px;
+}
+
+.work table {
+    width: 100%;
+    border-spacing: 10px 15px;
+}
+
+.work table td,
+th {
+    border-bottom: 2px solid #062ca8;
+}
+
+.work table thead {
+    font-weight: 600;
+}
+
+.education li {
+    padding-top: 10px;
+    border-bottom: 1px solid #062ca8;
+}
+
+.course li {
+    padding-top: 10px;
+    border-bottom: 1px solid #062ca8;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skill_progress {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.skill_progress div {
+    border-radius: 10px;
+}
+
+.skill_progress p {
+    position: absolute;
+    top: 0;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    background: rgb(59, 59, 59);
+    font-size: 20px;
+}
+
+.html_progress {
+    height: 10px;
+    background: white;
+    width: 150px;
+}
+
+.css_progress {
+    height: 10px;
+    background: white;
+    width: 100px;
+}
+
+.js_progress {
+    height: 10px;
+    background: white;
+    width: 50px;
+}
+
+.footer {
+    margin-top: 50px;
+    height: 200px;
+    width: 100%;
+    background: #004fb6;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.footer_img {
+    margin-top: 20px;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer_img img {
+    height: 50px;
+}
