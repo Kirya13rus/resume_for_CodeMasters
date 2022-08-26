@@ -166,6 +166,10 @@ ul {
         text-align: center;
     }
 
+    .header img {
+        margin-top: 10px;
+    }
+
     .container {
         width: 90%;
     }
