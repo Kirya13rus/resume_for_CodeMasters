@@ -99,7 +99,6 @@ ul {
 
 .progress_title {
     border-bottom: 1px solid var(--additional_color);
-    font-weight: 600;
 }
 
 .progress_slice {
