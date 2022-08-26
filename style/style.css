@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+:root {
+    --additional_color: #004fb6;
+}
+
 .wrapper {
     width: 100%;
     display: flex;
@@ -35,12 +39,11 @@ ul {
 .header img {
     height: 250px;
     border-radius: 50%;
-    /* height: 100%; */
 }
 
 .header_content h1 {
     margin-bottom: 30px;
-    border-bottom: 3px solid #062ca8;
+    border-bottom: 3px solid var(--additional_color);
 }
 
 .container {
@@ -50,8 +53,9 @@ ul {
 
 .container h1 {
     text-align: center;
+    color: white;
     font-size: 35px;
-    background-color: #1a70e098;
+    background-color: var(--additional_color);
     margin: 30px 0px;
 }
 
@@ -61,7 +65,7 @@ ul {
 }
 
 .work table td, th {
-    border-bottom: 2px solid #062ca8;
+    border-bottom: 2px solid var(--additional_color);
 }
 
 .work table thead {
@@ -70,35 +74,22 @@ ul {
 
 .education li {
     padding-top: 10px;
-    border-bottom: 1px solid #062ca8;
+    border-bottom: 1px solid var(--additional_color);
 }
 
 .course li {
     padding-top: 10px;
-    border-bottom: 1px solid #062ca8;
+    border-bottom: 1px solid var(--additional_color);
 }
 
-.skills {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.skill_progress {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 50%;
-}
-
-.skill_progress div {
+.progress, .progress div {
     border-radius: 10px;
 }
 
 .progress {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 50%;
     height: 10px;
     padding: 5px;
     margin-top: 10px;
@@ -106,21 +97,30 @@ ul {
     font-size: 20px;
 }
 
-.html_progress {
+.progress_title {
+    border-bottom: 1px solid var(--additional_color);
+    font-weight: 600;
+}
+
+.progress_slice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress_body {
     height: 10px;
     background: white;
+}
+
+.html_progress {
     width: 70%;
 }
 
 .css_progress {
-    height: 10px;
-    background: white;
     width: 30%;
 }
 
 .js_progress {
-    height: 10px;
-    background: white;
     width: 10%;
 }
 
@@ -129,7 +129,7 @@ ul {
     padding: 20px 0px;
     height: 200px;
     width: 100%;
-    background: #004fb6;
+    background: var(--additional_color);
     font-size: 20px;
     color: white;
     text-align: center;
