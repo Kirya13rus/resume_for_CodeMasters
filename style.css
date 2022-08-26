@@ -5,14 +5,15 @@
 
 
 .wrapper {
+    height: 100vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     font-size: 24px;
     flex-direction: column;
 }
 
-ul,
-ol {
+ul, ol {
     margin-left: 30px;
 }
 
@@ -23,9 +24,9 @@ ul {
 .header {
     display: flex;
     width: 70%;
-    height: 250px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 30px;
 }
 
@@ -34,8 +35,9 @@ ul {
 }
 
 .header img {
+    height: 250px;
     border-radius: 50%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .header_content h1 {
