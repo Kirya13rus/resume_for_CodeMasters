@@ -64,7 +64,7 @@ ul {
     border-spacing: 10px 15px;
 }
 
-.work table td, th {
+.work table td, .work table th {
     border-bottom: 2px solid var(--additional_color);
 }
 
@@ -147,6 +147,14 @@ ul {
     height: 50px;
 }
 
+
+@media (max-width: 1340px) {
+    .header {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
 @media (max-width: 600px) {
     .container {
         font-size: 20px;
@@ -163,9 +171,8 @@ ul {
     }
 }
 
-@media (max-width: 1340px) {
-    .header {
-        justify-content: center;
-        text-align: center;
+@media (max-width: 460px) {
+    .work table {
+        font-size: 18px;
     }
 }
