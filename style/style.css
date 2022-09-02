@@ -1,8 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
 :root {
     --additional_color: #004fb6;
 }
@@ -15,12 +10,8 @@
     flex-direction: column;
 }
 
-ul, ol {
-    margin-left: 30px;
-}
-
-ul {
-    list-style: disc;
+.strong_text {
+    font-weight: 600;
 }
 
 .header {
@@ -51,7 +42,7 @@ ul {
     width: 70%;
 }
 
-.container h1 {
+.heading {
     text-align: center;
     color: white;
     font-size: 35px;
@@ -59,13 +50,13 @@ ul {
     margin: 30px 0px;
 }
 
-.work table {
+table {
     width: 100%;
     border-spacing: 10px 15px;
 }
 
 .work table td, .work table th {
-    border-bottom: 2px solid var(--additional_color);
+    border-bottom: 1px solid var(--additional_color);
 }
 
 .work table thead {
@@ -78,6 +69,15 @@ ul {
 }
 
 .course li {
+    padding-top: 10px;
+    border-bottom: 1px solid var(--additional_color);
+}
+
+.course ol li {
+    list-style: none;
+}
+
+.skills li {
     padding-top: 10px;
     border-bottom: 1px solid var(--additional_color);
 }
@@ -97,14 +97,9 @@ ul {
     font-size: 20px;
 }
 
-.progress_title {
-    border-bottom: 1px solid var(--additional_color);
-}
-
 .progress_slice {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid var(--additional_color);
 }
 
 .progress_body {
@@ -112,22 +107,10 @@ ul {
     background: white;
 }
 
-.html_progress {
-    width: 70%;
-}
-
-.css_progress {
-    width: 30%;
-}
-
-.js_progress {
-    width: 10%;
-}
-
 .footer {
     margin-top: 50px;
     padding: 20px 0px;
-    height: 200px;
+    height: 220px;
     width: 100%;
     background: var(--additional_color);
     font-size: 20px;
@@ -135,7 +118,12 @@ ul {
     text-align: center;
 }
 
-.footer_img {
+.footer_links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_social {
     margin-top: 20px;
     height: 30%;
     display: flex;
@@ -143,7 +131,7 @@ ul {
     justify-content: space-evenly;
 }
 
-.footer_img img {
+.footer_social img {
     height: 50px;
 }
 
