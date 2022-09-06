@@ -163,8 +163,11 @@ table {
     }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 400px) {
     .work table {
         font-size: 18px;
+    }
+    .footer {
+        height: 270px;
     }
 }
