@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-
-<!--lang=ru, контент на русском-->
-<html lang="en">
-
 <html lang="ru">
-
 
 <head>
     <meta charset="UTF-8">
@@ -21,22 +16,11 @@
             <div class="header_content">
                 <h1>Абросимов Кирилл Алексеевич</h1>
                 <ul>
-
-<!--                    <b> в данном случае скорее стилистическую нагрузку выполняет, т.е. надо делать через css, не через семантический тег-->
-                    <li><b>Дата рождения:</b> 08.08.2000</li>
-                    <li><b>Город: </b>Саранск</li>
-                </ul>
-            </div>
-<!--            фотка весит 3.64МБ, что превышает все мыслимые пределы, учитывая что она использовалась для -->
-<!--            аватарки не более 300px это плохо. Любые ассеты подготавливают заранее, прежде чем использовать их на сайте-->
-            <img src="./img/photo-min.png" alt="Фото">
-
                     <li><span class="strong_text">Дата рождения:</span> 08.08.2000</li>
                     <li><span class="strong_text">Город: </span>Саранск</li>
                 </ul>
             </div>
             <img src="./img/photo-min.jpg" alt="Фото">
-
         </div>
         <div class="container">
             <div class="work">
@@ -44,16 +28,9 @@
                 <table>
                     <thead>
                         <tr>
-
-<!--                            если thead секция, то логично здесь увидеть th вместо td-->
-                            <td>Компания</td>
-                            <td>Должность</td>
-                            <td>Годы работы</td>
-
                             <th>Компания</th>
                             <th>Должность</th>
                             <th>Годы работы</th>
-
                         </tr>
                     </thead>
                     <tbody>
@@ -108,26 +85,6 @@
                 <h1 class="heading">Профессиональные навыки</h1>
                 <div class="skills">
                     <ol>
-
-                        <li class="progress_title"><b>Иностранные языки:</b></li>
-
-<!--                        здесь пропустил li в который уже надо поместить ul-->
-                        <ul>
-                            <li class="progress_slice">
-                                <div>Английский язык:</div>
-                                <div> Pre-Intermediate</div>
-                            </li>
-                        </ul>
-                        <li class="progress_title"><b>Языки программирования:</b></li>
-                        <ul>
-                            <li class="progress_slice">
-                                <div>HTML</div>
-<!--                                сделал норм, по сути полноценный слайдер, кстати уже есть input type=range-->
-<!--                                принципиальная разница что сейчас ты задал значение с помощью css, а не с помощью html или js как принято,-->
-<!--                                но работает, просто для реальных проектов не подойдёт-->
-                                <div class="progress">
-                                    <div class="html_progress progress_body">
-
                         <li class="progress_title"><span class="strong_text">Иностранные языки:</span>
                             <ul>
                                 <li class="progress_slice" style="border-bottom: none;">
@@ -143,7 +100,6 @@
                                     <div class="progress">
                                         <div class="html_progress progress_body" style="width: 70%;">
                                         </div>
-
                                     </div>
                                 </li>
                                 <li class="progress_slice">
@@ -167,22 +123,6 @@
             </div>
         </div>
         <div class="footer">
-
-            <h1>Контактная информация</h1>
-
-<!--            это не параграфы, причем телефон и почту оформляют обычно ссылкой-->
-            <p>Номер телефона: +79530286129</p>
-            <p>Email: Kirill13rus@mail.ru</p>
-
-<!--            название класса плохое, по сути .socials или .links -->
-            <div class="footer_img">
-
-                <a href="https://mail.google.com/mail/u/0/?fs=1&to=Kirill13rus@mail.ru&tf=cm" target="_blank"><img
-                        src="./img/email.png" alt="Email"></a>
-                <a href="https://join.skype.com/invite/OhZhBlHWu1l0" target="_blank"><img src="./img/skype.png"
-                        alt="Skype"></a>
-                <a href="https://github.com/Kirya13rus" target="_blank"><img src="./img/git.png" alt="Github"></a>
-
             <h1 class="heading">Контактная информация</h1>
             <div class="footer_links">
                 <a href="tel:+79530286129">Номер телефона: +79530286129</a>
@@ -194,7 +134,6 @@
                             alt="Skype"></a>
                     <a href="https://github.com/Kirya13rus" target="_blank"><img src="./img/git.png" alt="Github"></a>
                 </div>
-
             </div>
         </div>
     </div>
