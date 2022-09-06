@@ -166,6 +166,7 @@ table {
 @media (max-width: 400px) {
     .work table {
         font-size: 18px;
+        word-wrap: break-word;
     }
     .footer {
         height: 280px;
