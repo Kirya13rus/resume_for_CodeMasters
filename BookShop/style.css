@@ -114,7 +114,7 @@
 }
 
 .main-widget__slider {
-    background: url(/bg.jpg);
+    background: url(/img/bg.jpg);
     background-size: cover;
     background-position-y: center;
     background-repeat: no-repeat;
