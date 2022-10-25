@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="layout">
+        <div class="layout__header">
+            <nav class="nav layout-wrap">
+                <div class="nav__item">
+                    <img src="catalog.png" alt="Каталог" class="nav__menu">
+                    <div class="nav__item_text-hidden">
+                        Каталог
+                    </div>
+                </div>
+                <img src="bookstore-logo.png" alt="React Project" class="nav__item nav__logo">
+                <div class="nav__item">
+                    <div class="nav__item_text-hidden">
+                        Имя пользователя
+                    </div>
+                    <img src="account.png" alt="Аккаунт" class="nav__menu">
+                </div>
+            </nav>
+        </div>
+        <div class="layout__container layout-wrap">
+            <form action="" class="search-form">
+                <input placeholder="Введите имя автора и/или название книги" type="search" class="search-form__input">
+                <button type="submit" class="search-form__submit">
+                    <img src="search.png" alt="Поиск" class="search-form__submit-icon">
+                </button>
+            </form>
+            <div class="main-widget">
+                <div class="main-widget__section main-widget__slider">
+                    <button class="main-widget__arrow">
+                        <img src="active-arrow-left.png" alt="arrow-left" class="main-widget__arrow_icon">
+                    </button>
+                    <button class="main-widget__arrow">
+                        <img src="active-arrow-right.png" alt="arrow-right" class="main-widget__arrow_icon">
+                    </button>
+
+                </div>
+                <div class="main-widget__section main-widget__promo">
+                    <button class="main-widget__arrow">
+                        <img src="active-arrow-left.png" alt="arrow-left" class="main-widget__arrow_icon">
+                    </button>
+                    <div class="main-widget__text">
+                        <h1>Читай-город</h1>
+                        <ul>
+                            <li>1234-5678-9012-3456</li>
+                            <li>ABCD-EFGH-IJKL-MNOP</li>
+                            <li>1A2B-3C4D-5E6F-7G8H</li>
+                            <li>GFRE-JKGF-WASD-ROWP</li>
+                        </ul>
+                    </div>
+                    <button class="main-widget__arrow">
+                        <img src="active-arrow-right.png" alt="arrow-right" class="main-widget__arrow_icon">
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="layout__footer">
+            footer
+        </div>
+    </div>
+</body>
+
+</html>
